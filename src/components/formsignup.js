@@ -65,7 +65,7 @@ const Formsignup = () => {
                </div> 
                <button className='form-inout-button' type='submit' onClick={handleSubmit}>SignUp</button>
                <span className='form-input-login'>Already have a account?
-                 <a href='#'>Login here</a>
+                 <a href='/login'>Login here</a>
                </span>
         </form>
 

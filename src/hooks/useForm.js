@@ -1,5 +1,5 @@
-import React from 'react'
 import { useState } from 'react'
+// eslint-disable-next-line
 import validate from '../utils/validate'
 
 const useForm = (validate) => {
@@ -34,4 +34,4 @@ const useForm = (validate) => {
 }
 
 
-export default useForm
+export default useForm;

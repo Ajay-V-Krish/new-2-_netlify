@@ -1,4 +1,4 @@
-export default function validate(values){
+function validate(values){
     let errors={}
 
    
@@ -31,3 +31,5 @@ export default function validate(values){
 
         return errors
 }
+
+export default validate;
